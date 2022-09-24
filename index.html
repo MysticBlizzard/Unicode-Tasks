@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul >
+            
+        <li class="item"><a href="#About" class="active">ABOUT</a></li>
+        <li class="item"><a href="#client-section">MY CLIENTS</a></li>
+        <li class="item"><a href="#contact">CONTACT ME</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search here">
+                </div>
+            </ul>
+        </nav>
+    </header>
+       <section id="About">
+           
+                <div class="box">
+                    <div id="divpic">
+                   <img src="Aaditya.jpg" alt="">
+                </div>
+            </div>
+                    <div class="center">
+                        <h1>ABOUT </h1>
+                            I am a fun,hard working,excited and enthusiastic creative who strives for excellence in everything I do.I'm an avid learner and seek to enhance the lives of everyone around me and try to revolutionize every field that I am a part of.
+                        </div>
+               
+            
+               </section>
+               <hr>
+
+            <section id="client-section">
+                <h1 class="h-primary center">MY CLIENTS</h1>
+                <div id="clients">
+                    
+                    
+                        <img src="facebook logo 2.png" alt="My Client" >
+                    
+                        <img src="HP logo.jpg" alt="My Client">
+                    
+                        <img src="microsoft-gcade7e839_1280.png" alt="MyClient">
+                    
+                        <img src="apple logo.jpg" alt="MyClient">
+
+                </div>
+                <hr>
+        
+            </section>j
+            <section id="contact">
+                <h1 class="h-primary center">CONTACT ME</h1>
+                <div>
+                    <form action="/myaction.php" id="contact-box" onsubmit="return validateForm()" method="post">
+                       
+                            <label for="name">Name: </label>
+                            <input type="text" name="name" id="name" placeholder="Enter your Name"required><b><span class="formerror"></span></b>
+                            <label for="email">Email: </label>
+                            <input type="email" name="name" id="email" placeholder="Enter your Email" required><b><span class="formerror"></span></b>
+                            <label for="phone">Phone Number: </label>
+                            <input type="phone" name="name" id="phone" placeholder="Enter your Phone number"required><b><span class="formerror"></span></b>
+                            <label for="message">Message: </label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea required><b><span class="formerror"></span></b>
+                            <input class="but" type="submit" value="Submit" required><b><span class="formerror"></span></b>
+                    </form>
+                </div>
+            </section>
+            
+        </body>
+        <script src="index.js"></script>
+    </html>
+ 
